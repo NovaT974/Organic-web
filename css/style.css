@@ -2,6 +2,7 @@ body{
     color:#6d737d; 
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }  
 
 
@@ -10,6 +11,9 @@ body{
     width: 90%;
 } 
 
+.clearfix{
+    clear: both;
+} 
 /**************************************
         HEADER
 ***************************************/
@@ -22,14 +26,14 @@ header{
 
 header::before{
     content:"";
-     display: block;
+    display: block;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, .6);
+    
+    background-color: rgba(0, 0, 0, .7);
     
 }
 
@@ -61,6 +65,33 @@ header::before{
 .menu_principal ul li a {
    text-decoration: none;
    text-transform: uppercase;
-   color:#fff; 
+   color:#fff;
+} 
+
+
+.text_intro{
+    color:#fff;
+    text-align: center;
+    width: 35%;
+    position: relative;
+    z-index: 4; 
+    margin: 0 auto;
+    vertical-align: middle;
+    top: 30vh;
+    line-height: 35px;
+} 
+
+
+
+.text_intro h2{
+    font-size: 44px;
+} 
+
+.call_action{
+    background:#424242;  
+    border: none;
+    padding:15px 30px;
+    color:#fff;
+    text-transform: uppercase; 
 } 
 
