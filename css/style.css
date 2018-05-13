@@ -142,8 +142,17 @@ section{
 .info_counter .counter {
 	display: inline-table;	
 	width: 23%;
+	margin: 0 auto;
 	text-align: center;
 	color: #fff;
 	font-size: 20px;
 	font-weight: 900;
+}
+
+.info_counter .counter h3{
+	font-size: 30px;
+}
+
+.info_counter .counter span{
+	font-size: 14px;
 }
