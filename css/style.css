@@ -263,3 +263,11 @@ section{
     background: #f4f4f4;
     padding: 5% 5%;
 } 
+
+.blog_home article {
+    margin: 2%;
+} 
+
+.blog_home img {
+    width: 100%;
+} 
