@@ -19,11 +19,15 @@ body{
 ***************************************/
 
 header{
-    background: url('../img/home.jpg') no-repeat;
+    /*background: url('../img/home.jpg') no-repeat;*/
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.75)
+        ), url('../img/home.jpg') no-repeat;
     background-size: cover;
     height: 100vh;
 } 
-
+/*
 header::before{
     content:"";
     display: block;
@@ -34,7 +38,7 @@ header::before{
     width: 100%;
     background-color: rgba(0, 0, 0, .5);
     
-}
+}*/
 
 .logo{
     float: left;
@@ -201,6 +205,17 @@ section{
     margin: 0 2% 2% 2%;
     text-align: center;
     background: #f4f4f4;
+    margin-bottom: 7%;
+} 
+
+.sold_price button{
+    text-align: center;
+    background:#222 ;
+    margin-bottom: 7%;
+    color:#fff;
+    border: 0;
+    padding: 15px 30px; 
+    text-transform: uppercase;
 } 
 .title_price{
     background:#28bbea;
@@ -242,4 +257,9 @@ section{
 .sold_price li{
     list-style-type: none;
     height: 40px;
+} 
+
+.client_list{
+    background: #f4f4f4;
+    padding: 5% 5%;
 } 
