@@ -86,7 +86,6 @@ header::before{
 } 
 
 
-
 .text_intro h2{
     font-size: 44px;
 } 
@@ -265,10 +264,56 @@ section{
     padding: 5% 5%;
 } 
 
+
+.grey_background{
+    background:#eee; 
+    padding: 30px 30px;
+} 
+
+
 .blog_home article {
     margin: 2%;
+    background:#fff;
 } 
 
 .blog_home img {
     width: 100%;
 } 
+
+.blog_home h2 {
+    padding: 0 30px 0 30px;
+} 
+
+
+.blog_home .meta_info {
+    padding: 0 30px 0 30px;
+} 
+
+.blog_home p {
+    padding: 0 30px 0 30px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
