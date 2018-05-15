@@ -253,6 +253,7 @@ section{
 
 .sold_price ul {
     margin: 50px 0;
+    padding: 0;
 } 
 .sold_price li{
     list-style-type: none;
